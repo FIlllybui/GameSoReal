@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 313.6
     height: 722.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 84
+  controlID: 116
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 18
+  controlID: 115
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 60
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,8 +297,8 @@ MonoBehaviour:
     y: 312.8
     width: 443.19995
     height: 410
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -831,9 +831,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.778229, y: 0.5843147, z: -1.5109404}
+    m_Target: {x: 19.507103, y: -8.422933, z: 4.486462}
     speed: 2
-    m_Value: {x: 0.778229, y: 0.5843147, z: -1.5109404}
+    m_Value: {x: 19.507103, y: -8.422933, z: 4.486462}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -879,13 +879,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.07290538, y: 0.79407436, z: -0.09720733, w: -0.5955533}
+    m_Target: {x: -0.1441175, y: -0.44964126, z: 0.07376765, w: -0.8784515}
     speed: 2
-    m_Value: {x: -0.073021896, y: 0.79335827, z: -0.09711967, w: -0.5965051}
+    m_Value: {x: -0.14305858, y: -0.4497147, z: 0.073225565, w: -0.87859493}
   m_Size:
-    m_Target: 4.3657684
+    m_Target: 16.06966
     speed: 2
-    m_Value: 4.5714855
+    m_Value: 15.377665
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1035,14 +1035,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\fillz\GameSoVeryReal
+  m_LastProjectPath: C:\Users\fillz\GameSoReal\GameSoVeryReal
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d49b0000
-    m_LastClickedID: 39892
-    m_ExpandedIDs: 00000000d49b000000ca9a3bffffff7f
+    m_SelectedIDs: b4710000
+    m_LastClickedID: 29108
+    m_ExpandedIDs: 00000000b471000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1070,7 +1070,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000b4710000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1199,7 +1199,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1afbffff
+      m_ExpandedIDs: 129dffffb0a5ffffdeecffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
