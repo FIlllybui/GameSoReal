@@ -5,17 +5,18 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ball
+  - Cue
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ball
+  - 
   - Water
   - UI
   - Table
-  - 
-  - 
-  - 
+  - CueBall
+  - Cue
+  - Ball
   - 
   - 
   - 
