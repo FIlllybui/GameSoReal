@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class CueBall : MonoBehaviour
 {
+   [SerializeField] private GameObject cuehited;
    private Rigidbody _rb;
    private bool _hasCued;
 
@@ -17,12 +18,16 @@ public class CueBall : MonoBehaviour
    {
       _hasCued = true;
    }
-
+   private void HitBall()
+   {
+      _rb.AddForce (new Vector3 (0f, 0f, 20f), ForceMode.Impulse);
+   }
    private void Update()
    {
+     
       if (_hasCued && _rb.velocity.magnitude !=0)
       {
-         _rb.velocity.Normalize();
+         Invoke ("HitBall", 1f);  
       }
    }
 }
