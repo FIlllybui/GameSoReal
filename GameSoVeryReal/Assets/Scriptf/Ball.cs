@@ -7,9 +7,7 @@ public class Ball : MonoBehaviour
 {
     public Rigidbody rb;
     public bool isMoving;
-    public Transform cue;
-    public Ball ball;
-    public LineRenderer aimLineRenderer; 
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -18,25 +16,11 @@ public class Ball : MonoBehaviour
     private void Update()
     {
         // Check if the ball is moving
-        
-        if (rb.velocity.magnitude > 0.1f)
+        isMoving = rb.velocity.magnitude > 0.1f;
+        if (!isMoving)
         {
-            isMoving = true;
+            Debug.Log("not move");
         }
-        else
-        {
-            isMoving = false;
-        }
-        if ( isMoving)
-        {
-            HideCue();
-        }
-        if (!isMoving )
-        {
-            ShowCue();
-        }
-        Debug.Log(rb.velocity.magnitude);
-        Debug.Log(isMoving);
     }
 
     // Apply force to hit the ball
@@ -52,17 +36,6 @@ public class Ball : MonoBehaviour
         //{
           //  Hit(Vector3.forward);
         //}
-    }
-    
-    private void HideCue()
-    {
-        cue.gameObject.SetActive(false); // ซ่อนไม้คิว
-        aimLineRenderer.enabled = false; 
-    }
-    private void ShowCue()
-    {
-        cue.gameObject.SetActive(true); // แสดงไม้คิว
-        aimLineRenderer.enabled = true; // เปิดใช้งานเส้นทิศทางอีกครั้ง
     }
 }
 
